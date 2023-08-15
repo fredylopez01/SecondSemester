@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 import co.edu.uptc.model.StudentExcersice;
 
-public class TextExcersice {
+public class LambdaExpresition {
 	private ArrayList<StudentExcersice> listStudents = new ArrayList<StudentExcersice>();
 	
-	public TextExcersice() {
+	public LambdaExpresition() {
 		listStudents.add(new StudentExcersice(1, 191919, "Cristian Raul", "Ramirez Escalantes", 45, "Microservicios", 50));
 		listStudents.add(new StudentExcersice(2, 73728, "Camilo Stiven", "Silva", 19, "Ingles", 40));
 		listStudents.add(new StudentExcersice(3, 191919, "Pedro saves", "Laverde", 34, "Sociales", 30));
@@ -29,7 +29,7 @@ public class TextExcersice {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		TextExcersice i = new TextExcersice();
+		LambdaExpresition i = new LambdaExpresition();
 		int option = 0;
 		do {
 			System.out.println("Menu \n1. Obtener Alumnos cuyo nombre empiezan con C \n2. Imprimir numero de estudiantes "
