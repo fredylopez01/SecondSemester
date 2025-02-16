@@ -11,7 +11,7 @@ public class Test {
 		Matcher matcherName = patternName.matcher("7/07/2022");
 		System.out.println(matcherName.matches());
 		
-		String regExpp = "[0-31]{1}/[1-12]{1}/\\d{4}";
+		String regExpp = "[0-31]{2}/[1-12]{1}/\\d{4}";
 		System.out.println(Pattern.matches(regExpp, "2/2/2022"));
 		
 		String regExp = "[0-3]{1}[0-9]{1}/[0-1]{1}[0-2]{1}/\\d{4}";
